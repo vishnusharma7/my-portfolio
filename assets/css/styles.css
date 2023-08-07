@@ -507,8 +507,9 @@ color: var(--title-color);
 
 /*=============== QUALIFICATION ===============*/
 .qualification{
- 
+
   position: relative;
+  
 }
 .qualification__container{
 
@@ -535,6 +536,7 @@ color: var(--title-color);
 
 }
 .qualification__info{
+  /* width: 100%; */
   justify-content: center;
   display: flex;
   column-gap: 3rem;
@@ -557,7 +559,7 @@ color: var(--title-color);
   color: var(--text-color-light);
 }
 .qualification__country{
-  margin: .75rem;
+  /* margin: .75rem; */
 
 }
 .qualification__img{
@@ -570,6 +572,23 @@ color: var(--title-color);
 
 
 }
+
+
+.qualification__info .work-detailsss{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+  width: 500px;
+  height: 250px;
+  line-height: 1.5;
+  flex:wrap;
+  box-shadow: 0 4px 20px hsl(207, 24%, 35%, .1);
+  border-radius: 20px;
+ 
+}
+
 
 
 /*=============== SERVICES ===============*/
@@ -1153,6 +1172,7 @@ transition: transform .3s;
     transition: .4s;
 
   }
+
    .nav{
     width: initial;
     height: calc(var(--header-height) + 1.5rem);
@@ -1201,6 +1221,7 @@ transition: transform .3s;
     color: var(--text-color-light);
 
   }
+
 
   .change-theme:hover{
     color: var(--title-color);
@@ -1352,7 +1373,7 @@ transition: transform .3s;
     
 
   }
-  
+ 
 
   .qualification__img{
     width: 300px;
@@ -1499,7 +1520,21 @@ transition: transform .3s;
 
  }
 }
-
+@media screen and (max-width:1024px) {
+  .qualification__info{
+    flex-direction: column;
+   
+  }
+ 
+}
+@media screen and (max-width:575px) {
+  .qualification__info .work-detailsss{
+    width: 400px;
+    height: 300px;
+    column-gap: 30px;
+  }
+ 
+}
 /* =======================Pre Loader effect========================= */
 
 
