@@ -376,6 +376,8 @@ body.dark-theme {
   border-radius: 6.25rem;
   place-items: center;
   transition: background .4s;
+  animation: imageUpDownAnimation 1s ease infinite alternate; /* Apply up-and-down animation to image */
+
   /*for dark mode animation*/
 
 
@@ -389,7 +391,7 @@ body.dark-theme {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  
+
 
 
 }
@@ -400,10 +402,31 @@ body.dark-theme {
   padding-top: 2rem;
   overflow: auto;
   transition: 2s;
+  cursor: pointer;
 
 
 
 }
+
+
+
+
+@keyframes imageUpDownAnimation {
+  0% {
+      transform: translateY(0); /* Start with no translation */
+  }
+  100% {
+      transform: translateY(-10px); /* Translate image upward */
+  }
+}
+
+
+
+
+
+
+
+
 
 .home__shape-wawes,
 .home__shape-circle {
