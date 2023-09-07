@@ -256,9 +256,6 @@ body.dark-theme {
   align-items: center;
   box-shadow: 0 4px 20px hsl(207, 24%, 35%, .1);
   padding-inline: 1.5rem;
-  
-
-
 
   border-radius: 3rem;
 
@@ -336,7 +333,7 @@ body.dark-theme {
 .nav__close {
 
   position: absolute;
-  right: 1.5rem;
+  left: 1.5rem;
   bottom: .7rem;
   font-size: 1.5rem;
   cursor: pointer;
@@ -1291,9 +1288,24 @@ body.dark-theme {
     justify-content: center;
   }
 }
+@media screen and (max-width: 576px) {
+ 
+  .nav{
+    width: 60%;
+    background-color: var(--container-color);
 
+    
+  
+  }
+  .nav__menu{
+    background-color: var(--container-color);
+
+  }
+ 
+}
 /* For medium devices */
 @media screen and (min-width: 576px) {
+
 
   .nav,
   .nav__menu {
@@ -1303,6 +1315,7 @@ body.dark-theme {
 
   .nav {
     margin: 0 auto;
+    
   
   }
 
@@ -1397,6 +1410,7 @@ body.dark-theme {
     background-color: transparent;
     backdrop-filter: blur(10px);
     transition: .4s;
+    
 
   }
 
@@ -1406,8 +1420,10 @@ body.dark-theme {
     box-shadow: none;
     border-radius: 0;
     column-gap: 3rem;
+   
     margin-inline: 1.5rem;
     padding: 0;
+   
     
    
 
@@ -1434,7 +1450,7 @@ body.dark-theme {
   .nav__list {
     padding: 1rem;
     display: flex;
-    column-gap: 3rem;
+    column-gap: 2rem;
 
   }
 
