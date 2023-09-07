@@ -376,7 +376,7 @@ body.dark-theme {
   border-radius: 6.25rem;
   place-items: center;
   transition: background .4s;
-  animation: imageUpDownAnimation 1s ease infinite alternate; /* Apply up-and-down animation to image */
+  animation: imageUpDownAnimation 1.5s ease infinite alternate; /* Apply up-and-down animation to image */
 
   /*for dark mode animation*/
 
