@@ -254,8 +254,7 @@ body.dark-theme {
   box-shadow: 0 4px 20px hsl(207, 24%, 35%, .1);
   padding-inline: 1.5rem;
   
-  background-color:transparent;
-  backdrop-filter: blur(10px);
+
 
 
   border-radius: 3rem;
@@ -294,8 +293,6 @@ body.dark-theme {
     right: 0;
     bottom: -60%;
     margin: 0 auto;
-    background:transparent;
-    backdrop-filter: blur(20px);
     padding: 2rem 1.5rem 5rem;
     border-radius: 2rem;
     transition: bottom .3s;
@@ -1406,6 +1403,7 @@ body.dark-theme {
     column-gap: 3rem;
     margin-inline: 1.5rem;
     padding: 0;
+    
    
 
 
