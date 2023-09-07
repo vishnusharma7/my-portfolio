@@ -254,7 +254,8 @@ body.dark-theme {
   box-shadow: 0 4px 20px hsl(207, 24%, 35%, .1);
   padding-inline: 1.5rem;
   
-  background-color: var(--body-color);
+  background-color:transparent;
+  backdrop-filter: blur(10px);
 
 
   border-radius: 3rem;
