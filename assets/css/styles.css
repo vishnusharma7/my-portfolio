@@ -248,16 +248,16 @@ animation: colorChange 30s infinite;
 
 @keyframes colorChange {
   0% {
-    color: rgb(255, 0, 0); /* Red */
-    border-color: rgb(255, 0, 0); /* Red */
+    color: rgb(220, 20, 20); /* Red */
+    border-color: rgb(220, 20, 20); /* Red */
   }
   20% {
     color: rgb(0, 255, 0); /* Green */
     border-color: rgb(0, 255, 0); /* Green */
   }
   40% {
-    color: rgb(0, 0, 255); /* Blue */
-    border-color: rgb(0, 0, 255); /* Blue */
+    color: rgb(33, 33, 207); /* Blue */
+    border-color: rgb(43, 43, 228); /* Blue */
   }
   60% {
     color: rgb(255, 255, 0); /* Yellow */
