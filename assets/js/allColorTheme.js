@@ -6,6 +6,7 @@ const themes = [
             '--text-color': 'hsl(207, 4%, 28%)',
             '--body-color': 'hsl(207, 4%, 99%)',
             '--container-color': 'hsl(207, 4%, 95%)',
+            '--text-color-light': 'hsl(207, 4%, 5%)',
         },
     },
     {
@@ -35,6 +36,7 @@ const themes = [
             '--text-color': 'hsl(207, 4%, 100%)',
             '--body-color': 'hsl(207, 4%, 10%)',
             '--container-color': 'hsl(207, 4%, 12%)',
+            '--text-color-light': 'hsl(207, 4%, 100%)',
         },
     },
     {
