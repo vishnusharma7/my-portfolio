@@ -408,9 +408,10 @@ animation: colorChange 30s infinite;
     right: 0;
     bottom: -60%;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 2rem;
     transition: bottom .3s;
+    z-index: 99;
 
 
   }
