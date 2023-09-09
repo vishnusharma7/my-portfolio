@@ -14,7 +14,7 @@ const themes = [
         colors: {
             '--title-color': '#ff1e00',
             '--text-color': 'hsl(207, 4%, 100%)',
-            '--body-color': 'hsl(207, 4%, 15%)',
+            '--body-color': 'hsl(207, 4%, 12%)',
             '--container-color': 'hsl(207, 4%, 12%)',
             '--text-color-light': 'hsl(207, 4%, 80%)',
         },
