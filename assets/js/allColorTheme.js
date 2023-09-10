@@ -56,6 +56,7 @@ const themes = [
             '--text-color': 'hsl(207, 4%, 65%)',
             '--body-color': 'hsl(207, 4%, 10%)',
             '--container-color': 'hsl(207, 4%, 12%)',
+            '--text-color-light': 'hsl(207, 4%, 90%)',
         },
     },
 ];
