@@ -988,9 +988,11 @@ animation: colorChange 30s infinite;
 
 .projects__container .swiper-button-prev,
 .projects__container .swiper-button-next {
+ 
   width: initial;
   height: initial;
   margin: initial;
+
   font-size: 2.5rem;
   color: var(--title-color);
 
@@ -1832,6 +1834,7 @@ animation: colorChange 30s infinite;
 
   .projects__container .swiper-button-prev,
   .projects__container .swiper-button-next {
+    z-index: 99;
     font-size: 3rem;
 
   }
