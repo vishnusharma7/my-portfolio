@@ -1042,6 +1042,7 @@ animation: colorChange 30s infinite;
 
 }
 
+
 .testimonial__description {
   font-family: var(--title-font);
   color: var(--title-color);
