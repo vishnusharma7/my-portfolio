@@ -54,15 +54,25 @@ let swiperProjects = new Swiper(".projects__container", {
   });
 
 // /*=============== SWIPER TESTIMONIAL ===============*/
-// let swiperTestimonial = new Swiper(".testimonial__container", {
+let swiperTestimonial = new Swiper(".review-slide", {
     
-//     navigation: {
-//       nextEl: ".swiper-button-next",
-//       prevEl: ".swiper-button-prev",
-//     },
-  
+    loop : true,
+    spaceBetween : 100,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+   
+    // mousewheel: true,
+    // keyboard: true,
+    breakpoints: {
+        1200: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+      },
      
-//   });
+  });
 
 
 /*=============== EMAIL JS ===============*/

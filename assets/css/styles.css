@@ -1078,7 +1078,7 @@ animation: colorChange 30s infinite;
 /* Swiper class */
 .testimonial__container .swiper-slide {
   margin: auto;
-
+ 
 }
 
 .testimonial__container .swiper-button-prev::after,
@@ -2152,3 +2152,108 @@ animation: colorChange 30s infinite;
     background: rgb(51, 102, 255);
   }
 }
+
+
+
+/* pop up review */
+
+/* Styles for the "Write a Review" button */
+.write-review-button {
+  margin-top: 10em;
+ 
+  background-color: var(--container-color); /* Background color */
+  color: var(--title-color); /* Text color */
+  padding: 15px 15px; /* Padding around the text */
+  border: none; /* No border */
+  border-radius: 50px; /* Rounded corners to make it unique */
+  font-size: 1em; /* Font size */
+  cursor: pointer;
+  /* box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); Box shadow for depth */
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+
+/* Hover effect */
+.write-review-button:hover {
+  transform: scale(1.05); /* Slight scale up on hover */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Enhanced box shadow on hover */
+}
+
+/* Active effect (when clicked) */
+.write-review-button:active {
+  transform: scale(0.95); /* Slight scale down when clicked */
+  box-shadow: none; /* Remove box shadow when clicked */
+}
+
+
+.review-popup {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+padding: 2em;
+width: 100%;
+height: 100%;
+background-color: rgb(255, 255,255, 0.1);
+justify-content: center;
+align-items: center;
+z-index: 999;
+}
+
+.review-form {
+background-color:var(--body-color);
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+width:450px;
+text-align: flex-start;
+}
+
+.review-form h3 {
+margin-bottom: 20px;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+.form-group label {
+display: block;
+margin-bottom: 5px;
+}
+.form-group input{
+  background-color: var(--container-color);
+  color: var(--title-color);
+}
+
+.form-group input,
+.form-group textarea {
+width: 100%;
+padding: 10px;
+border: 1px solid var(--title-color);
+border-radius: 5px;
+font-size: 16px;
+}
+
+.form-group textarea {
+resize: vertical;
+}
+
+button[type="submit"], button[type="button"] {
+background-color: var(--container-color);
+color: var(--text-color);
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+}
+
+/* Styles for responsiveness */
+@media (max-width: 768px) {
+.review-form {
+max-width: 100%;
+padding: 20px;
+}
+}
+
