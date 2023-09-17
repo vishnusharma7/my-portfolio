@@ -99,6 +99,7 @@ const sendEmail = (e) =>{
         .then(() =>{
             //show message add color
             contactMessage.classList.add('color-blue')
+            contactMessage.classList.add('color-blue', 'animated');
             contactMessage.textContent = 'Message Sent Successfully'
 
             //Remove message after 5 seconds
