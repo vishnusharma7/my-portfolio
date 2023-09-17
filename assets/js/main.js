@@ -83,6 +83,7 @@ contactProject = document.getElementById('contact-project'),
 contactMessage = document.getElementById('contact-message')
 const sendEmail = (e) =>{
     e.preventDefault()
+
     // check value field
     if (contactName.value === '' || contactEmail.value === '' || contactProject.value === '') {
         // add remove color
@@ -94,7 +95,7 @@ const sendEmail = (e) =>{
 
     }else{
         //service ID, templateID, #form, public key
-        emailjs.sendForm('service_kyqlzw9','template_ayj5amf','#contact-form','HS_o68dnumSG61Z8J')
+        emailjs.sendForm('service_kyqlzw9','template_ayj5amf','#contact-form','1xayHK569bSepcY1S')
         .then(() =>{
             //show message add color
             contactMessage.classList.add('color-blue')
