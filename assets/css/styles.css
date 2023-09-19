@@ -1213,15 +1213,23 @@ animation: colorChange 30s infinite;
   top: 0;
   left: 0;
   width: 100%;
-  border: 2px solid var(--text-color-light);
-  border-radius: 2rem;
+  border: 1.5px solid var(--text-color-light);
+  border-radius: 0.5rem;
   padding: 1rem 1rem;
   font-size: var(--normal-font-size);
   font-family: var(--title-font);
   background: none;
   outline: none;
   z-index: 1;
+  transition: 1s;
 
+}
+.contact__form-input:focus{
+  border: 1.5px solid var(--title-color);
+}
+.proj-msgs{
+  
+  height: 8em;
 }
 
 .contact__form-tag {
