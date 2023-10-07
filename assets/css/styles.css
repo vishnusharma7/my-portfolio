@@ -44,6 +44,11 @@
   --z-fixed: 100;
 }
 
+::selection{
+  background-color: var(--title-color);
+  color: var(--text-color);
+
+}
 /* Responsive typography */
 @media screen and (min-width: 1024px) {
   :root {
@@ -1952,12 +1957,10 @@ animation: colorChange 30s infinite;
 
   .footer__social-link {
     font-size: 1.5rem;
-
   }
 
   .footer__copy {
     margin-top: 5rem;
-
   }
 }
 
