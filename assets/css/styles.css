@@ -1964,16 +1964,16 @@ animation: colorChange 30s infinite;
 @media screen and (max-width:1024px) {
   .qualification__info {
     flex-direction: column;
-
+    gap: 1em;
   }
-
 }
+
 
 @media screen and (max-width:575px) {
   .qualification__info .work-detailsss {
-    width: 320px;
+    width: 380px;
     height: 300px;
-    column-gap: 10px;
+  
   }
 
 }
