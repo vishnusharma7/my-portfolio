@@ -1,6 +1,6 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto:wght@400;500&display=swap");
-
+/* @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto:wght@400;500&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700&display=swap');
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
@@ -23,8 +23,8 @@
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: 'Roboto', sans-serif;
-  --title-font: 'Lora', serif;
+  --body-font: 'Dosis', sans-serif;
+  --title-font: 'Dosis', sans-serif;
   --biggest-font-size: 1.5rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -66,6 +66,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  letter-spacing: 0.5px;
 }
 
 html {
@@ -299,7 +300,6 @@ animation: colorChange 30s infinite;
   align-items: center;
   justify-content: center;
   gap: 1em;
-
   right: 0;
   color: var(--text-color);
   display: none;
@@ -330,14 +330,10 @@ animation: colorChange 30s infinite;
 
   .theme-list{
    bottom: 0;
-   
-  
-  
   }
   .theme-changers .t-text-d{
     display: none;
   }
-  
  
   .theme-changers img{
     display: flex;
