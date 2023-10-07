@@ -130,6 +130,16 @@ const themes = [
         },
     },
     {
+        name: 'blue-dark',
+        colors: {
+            '--title-color': '#2156fa',
+            '--text-color': 'hsl(207, 4%, 100%)',
+            '--body-color': 'hsl(207, 4%, 10%)',
+            '--container-color': 'hsl(207, 4%, 12%)',
+            '--text-color-light': 'hsl(207, 4%, 100%)',
+        },
+    },
+    {
         name: 'green',
         colors: {
             '--title-color': '#beef00',

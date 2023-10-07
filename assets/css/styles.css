@@ -2292,11 +2292,11 @@ padding: 20px;
 
 .color-blur{
   position: absolute;
-  width:250px;
+  width:300px;
   height: 400px;
   background-color: var(--title-color);
   z-index: -999;
-  filter: blur(600px);
+  filter: blur(500px);
 }
 .blur-right{
 right: 0;
@@ -2305,5 +2305,14 @@ right: 0;
   width: 100px;
  right: 50%;
 
+
 }
 
+@media  screen and (max-width:768px) {
+  .color-blur{
+    width:50px;
+    height: 50px;
+    filter: blur(180px);
+}
+
+}
