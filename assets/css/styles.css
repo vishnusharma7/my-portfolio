@@ -188,7 +188,7 @@ body.dark-theme {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  max-width: 1024px;
+  max-width: 1100px;
   margin-inline: 1.5rem;
   box-sizing: 5rem;
 }
@@ -857,11 +857,15 @@ animation: colorChange 30s infinite;
   height: 250px;
   line-height: 1.5;
   flex: wrap;
-  box-shadow: 0 4px 20px hsl(207, 24%, 35%, .1);
   border-radius: 20px;
+  background-color: var(--container-color);
+  cursor: pointer;
+  transition: 0.5s;
 
 }
-
+.qualification__info .work-detailsss:hover{
+  scale: 1.1;
+}
 
 
 /*=============== SERVICES ===============*/
@@ -2285,3 +2289,21 @@ padding: 20px;
 .color-blue.animated {
   animation: bounceAnimation 1s ease-in-out;
 }
+
+.color-blur{
+  position: absolute;
+  width:250px;
+  height: 400px;
+  background-color: var(--title-color);
+  z-index: -999;
+  filter: blur(600px);
+}
+.blur-right{
+right: 0;
+}
+.blur-footer{
+  width: 100px;
+ right: 50%;
+
+}
+
