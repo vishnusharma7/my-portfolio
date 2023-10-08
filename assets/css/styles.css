@@ -392,7 +392,16 @@ animation: colorChange 30s infinite;
   font-weight: var(--font-medium);
 
 }
+.nav__logo{
+font-size: 2em;
 
+font-weight: 800;
+}
+@media screen and (max-width: 768px) {
+  .nav__logo{
+    font-size: 1em;
+  }
+}
 .nav__toggle {
   display: flex;
   font-size: 1.25rem;
