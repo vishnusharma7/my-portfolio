@@ -115,7 +115,7 @@
                 <div class="theme-dropdown">
                     <div class="theme-changers" id="theme-button">
                         <div class="themes-text">
-                            <div class="t-text-d">Themes</div>
+                            <div class="t-text-d" style="color: var(--title-color);">Themes</div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="bi bi-lightning-charge" viewBox="0 0 16 16">
                                 <path
@@ -132,9 +132,16 @@
                         <li data-theme="orange">
                             <div class="theme-circle" style="background-color: orange;"></div>
                         </li>
+                        <li data-theme="purple">
+                            <div class="theme-circle" style="background-color:  #6B4EFF;"></div>
+                        </li>
                         <li data-theme="blue">
                             <div class="theme-circle" style="background-color: #2156fa;"></div>
                         </li>
+                        <li data-theme="blue-dark">
+                            <div class="theme-circle" style="background-color: #122252;"></div>
+                        </li>
+                       
                         <li data-theme="green">
                             <div class="theme-circle" style="background-color: #beef00;"></div>
                         </li>
@@ -155,11 +162,14 @@
     </header>
 
 
+
     <!--==================== MAIN ====================-->
     <main class="main">
+       
+
         <!--==================== HOME ====================-->
         <section class="home section" id="home">
-       
+            <div class="color-blur blur-right" style="top: 0;"></div>
             <div class="home__container container grid section__border">
                 <div class="home__data grid">
                     <h1 class="home__title">
@@ -267,6 +277,7 @@
 
         <!--==================== SKILLS ====================-->
         <section class="skills section" id="skills">
+            
             <h2 class="section__title">Skills</h2>
             <span class="section__subtitle">My Favorite skills</span>
             <div class="skills__container container grid section__border">
@@ -396,6 +407,7 @@
 
         <!--==================== QUALIFICATION ====================-->
         <section class="qualification section" id="qualification">
+       
             <h2 class="section__title">Experience in Real world Projects</h2>
             <span class="section__subtitle"></span>
             <div class="qualification__container container grid section__border">
@@ -455,6 +467,7 @@
 
         <!--==================== SERVICES ====================-->
         <section class="services section" id="services">
+            <div class="color-blur"></div>
             <h2 class="section__title">Qualities</h2>
             <span class="section__subtitle">What can I do</span>
             <div class="services__container container grid section__border">
@@ -504,6 +517,7 @@
 
         <!--==================== PROJECTS ====================-->
         <section class="projects section" id="projects">
+            
             <h2 class="section__title">Currently working on</h2>
             <span class="section__subtitle">On going live projects</span>
             <div class="container section__border">
@@ -580,6 +594,7 @@
 
         <!--==================== PROJECTS ====================-->
         <section class="projects section" id="projects">
+            <div class="color-blur blur-right"></div>
             <h2 class="section__title">Projects on website</h2>
             <span class="section__subtitle">Most recent works</span>
             <div class="container section__border">
@@ -785,6 +800,7 @@
         </section>
         <!--==================== TESTIMONIAL ====================-->
         <section class="testimonial section">
+           
             <h2 class="section__title">Reviews</h2>
             <span class="section__subtitle">Reviewers</span>
             <div class="container section__border">
@@ -941,7 +957,7 @@
                         <div class="contact__form-div contact__form-area">
                             <label for="contact__form-tag" class="contact__form-tag">Project</label>
                             <textarea name="user_project" placeholder="Write your project details" id="contact-project"
-                                class="contact__form-input"></textarea>
+                                class="contact__form-input proj-msgs"></textarea>
                         </div>
 
                         <p class="contact__message" id="contact-message"></p>
@@ -956,6 +972,7 @@
 
     <!--==================== FOOTER ====================-->
     <footer class="footer">
+        <div class="color-blur blur-footer"></div>
         <div class="footer__container container">
             <h1 class="footer__title">Thanks for visiting My Portfolio</h1>
             <p>Have a nice day!</p>

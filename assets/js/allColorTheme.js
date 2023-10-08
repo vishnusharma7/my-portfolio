@@ -120,6 +120,16 @@ const themes = [
         },
     },
     {
+        name: 'purple',
+        colors: {
+            '--title-color': '#6B4EFF',
+            '--text-color': 'hsl(207, 4%, 100%)',
+            '--body-color': 'hsl(207, 4%, 5%)',
+            '--container-color': 'hsl(207, 4%, 20%)',
+            '--text-color-light': 'hsl(207, 4%, 80%)',
+        },
+    },
+    {
         name: 'blue',
         colors: {
             '--title-color': '#2156fa',
@@ -134,7 +144,7 @@ const themes = [
         colors: {
             '--title-color': '#2156fa',
             '--text-color': 'hsl(207, 4%, 100%)',
-            '--body-color': 'hsl(207, 4%, 10%)',
+            '--body-color': 'hsl(207, 4%, 6%)',
             '--container-color': 'hsl(207, 4%, 12%)',
             '--text-color-light': 'hsl(207, 4%, 100%)',
         },
@@ -154,7 +164,7 @@ const themes = [
         colors: {
             '--title-color': '#18da8e',
             '--text-color': '#18da8e',
-            '--body-color': '#0c293f',
+            '--body-color': 'hsl(207, 4%, 3%)',
             '--container-color': 'rgb(25, 120,120,0.1)',
             '--text-color-light': 'hsl(207, 4%, 100%)',
         },
