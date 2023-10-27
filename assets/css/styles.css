@@ -1192,7 +1192,7 @@ font-weight: 800;
 
 .contact__button {
   width: max-content;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   column-gap: .5rem;
   color: var(--title-color);
@@ -2257,7 +2257,7 @@ resize: vertical;
 button[type="submit"], button[type="button"] {
 background-color: var(--container-color);
 color: var(--text-color);
-padding: 10px 20px;
+/* padding: 10px 20px; */
 border: none;
 border-radius: 5px;
 cursor: pointer;
@@ -2320,7 +2320,7 @@ right: 0;
   .color-blur{
     width:100px;
     height: 100px;
-    filter: blur(280px);
+    filter: blur(100px);
 }
 
 }
