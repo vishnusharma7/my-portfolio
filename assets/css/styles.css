@@ -2292,14 +2292,19 @@ padding: 20px;
 .color-blue.animated {
   animation: bounceAnimation 1s ease-in-out;
 }
-
+.color-blur-holder{
+  position: relative;
+  z-index: -1000;
+}
 .color-blur{
   position: absolute;
-  width:250px;
-  height: 250px;
+  width:150px;
+  height: 150px;
   background-color: var(--title-color);
+  z-index: -25;
   /* z-index: -999; */
-  filter: blur(500px);
+  filter: blur(120px);
+ 
 }
 .blur-right{
 right: 0;
