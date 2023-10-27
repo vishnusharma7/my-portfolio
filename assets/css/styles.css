@@ -1273,6 +1273,9 @@ font-weight: 800;
   font-family: var(--title-font);
   font-weight: var(--font-semi-bold);
   cursor: pointer;
+  background-color: var(--container-color);
+  padding: 0.8em;
+  border-radius: 0.5em;
 }
 
 .contact__form .contact__button i {
@@ -2254,16 +2257,16 @@ font-size: 16px;
 resize: vertical;
 }
 
-button[type="submit"], button[type="button"] {
+button[type="submits"] , button[type="button"]{
 background-color: var(--container-color);
 color: var(--text-color);
-/* padding: 10px 20px; */
+padding: 10px 20px;
 border: none;
 border-radius: 5px;
 cursor: pointer;
 font-size: 16px;
 }
-
+ 
 /* Styles for responsiveness */
 @media (max-width: 768px) {
 .review-form {
