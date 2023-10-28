@@ -102,21 +102,21 @@ const themes = [
     {
         name: 'default',
         colors: {
-            '--title-color': 'hsl(207, 4%, 16%)',
-            '--text-color': 'hsl(207, 4%, 28%)',
-            '--body-color': 'hsl(207, 4%, 99%)',
-            '--container-color': 'hsl(207, 4%, 95%)',
-            '--text-color-light': 'hsl(207, 4%, 5%)',
-        },
-    },
-    {
-        name: 'orange',
-        colors: {
             '--title-color': '#ff1e00',
             '--text-color': 'hsl(207, 4%, 100%)',
             '--body-color': 'hsl(207, 4%, 12%)',
             '--container-color': 'hsl(207, 4%, 20%)',
             '--text-color-light': 'hsl(207, 4%, 80%)',
+        },
+    },
+    {
+        name: 'orange',
+        colors: {
+            '--title-color': 'hsl(207, 4%, 16%)',
+            '--text-color': 'hsl(207, 4%, 28%)',
+            '--body-color': 'hsl(207, 4%, 99%)',
+            '--container-color': 'hsl(207, 4%, 95%)',
+            '--text-color-light': 'hsl(207, 4%, 5%)',
         },
     },
     {
