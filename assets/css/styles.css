@@ -9,11 +9,11 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --first-color: hsl(207, 65%, 65%);
   /* --title-color:rgb(18, 2, 62); */
-  --title-color: hsl(207, 4%, 16%);
-  --text-color: hsl(207, 4%, 28%);
-  --text-color-light: hsl(207, 4%, 56%);
-  --body-color: hsl(207, 4%, 99%);
-  --container-color: hsl(207, 4%, 95%);
+  --title-color: #ff1e00;
+  --text-color: hsl(207, 4%, 100%);
+  --text-color-light: hsl(207, 4%, 80%);
+  --body-color: hsl(207, 4%, 12%);
+  --container-color: hsl(207, 4%, 20%);
 
   /* Change the first number */
   /* Blue: 207 - Purple: 250 - Pink: 356 - Teal: 174 */
