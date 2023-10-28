@@ -1462,21 +1462,13 @@ font-weight: 800;
   }
 }
 
+
 @media screen and (max-width: 576px) {
 
   .nav {
     width: 60%;
-
-    background-color: var(--container-color);
-
-
-
   }
-
-  .nav__menu {
-    background-color: var(--container-color);
-
-  }
+ 
 
 }
 
@@ -2336,3 +2328,10 @@ right: 0;
 }
 
 }
+.nav {
+  background-color: var(--body-color);
+}
+ .nav__menu {
+    background-color: var(--body-color);
+
+  }
