@@ -623,6 +623,7 @@ font-weight: 800;
 .home__info-description {
   font-family: var(--title-font);
   color: var(--title-color);
+  font-weight: 600;
 }
 
 .home__info-description {
