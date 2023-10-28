@@ -1977,6 +1977,13 @@ font-weight: 800;
     height: 300px;
   
   }
+  .nav {
+    background-color: var(--body-color);
+  }
+   .nav__menu {
+      background-color: var(--body-color);
+  
+    }
 
 }
 
@@ -2327,10 +2334,3 @@ right: 0;
 }
 
 }
-.nav {
-  background-color: var(--body-color);
-}
- .nav__menu {
-    background-color: var(--body-color);
-
-  }
