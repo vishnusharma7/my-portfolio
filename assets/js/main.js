@@ -58,6 +58,7 @@ let swiperTestimonial = new Swiper(".review-slide", {
     
     loop : true,
     spaceBetween : 100,
+    
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
@@ -67,8 +68,7 @@ let swiperTestimonial = new Swiper(".review-slide", {
     // keyboard: true,
     breakpoints: {
         1200: {
-          slidesPerView: 2,
-          spaceBetween: 10,
+          slidesPerView: 1,
         },
       },
      
