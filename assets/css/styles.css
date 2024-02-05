@@ -193,7 +193,7 @@ body.dark-theme {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  max-width: 1100px;
+  max-width: 1200px;
   margin-inline: 1.5rem;
   box-sizing: 5rem;
 }
@@ -820,7 +820,6 @@ font-weight: 800;
   justify-content: center;
   display: flex;
   column-gap: 3rem;
-
   /* justify-content: center; */
 
 
