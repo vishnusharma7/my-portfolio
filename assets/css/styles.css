@@ -893,7 +893,7 @@ font-weight: 800;
   text-align: center;
   padding: 3.5rem 1rem;
   border-radius: 7.25rem;
-  box-shadow: 0 4px 12px hsl(207, 24%, 35%, .15);
+
 
 
 }
@@ -1972,9 +1972,32 @@ font-weight: 800;
 
 @media screen and (max-width:575px) {
   .qualification__info .work-detailsss {
-    width: 380px;
-    height: 300px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    align-items: center;
   
+  }
+  .qualification__country{
+    font-size: 14px;
+  }
+  .skills__blob{
+    width: 80px;
+    height: 80px;
+  }
+  .project_detailss{
+    margin-top: 1em;
+    text-align: center;
+  }
+  .skills__blob img{
+    width: 30px;
+  }
+  .projects__container .swiper-button-prev,.projects__container .swiper-button-next{
+    top: 3.5rem;
+  }
+  .projects__img{
+    width: 80%;
+    margin: auto;
   }
   .nav {
     background-color: var(--body-color);
